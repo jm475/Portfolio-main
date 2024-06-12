@@ -1,84 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<!-- Head -->
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Personal Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@200;300;400;500;600;700;800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-<link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  <!-- START OF HEAD -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <!-- LINK FOR FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@200;300;400;500;600;700;800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- LINK FOR GITHUB ICON -->
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     />
-</head>
-<!-- End of Head -->
-
-
-
-
-<!-- Start of Body -->
-<body>
-
-<!-- Start of Navbar -->
-<nav id="navbar">
-  <ul class="nav-list">
-    <li><a href="#welcome-section">About</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-
-</nav>
-<!-- End of Navbar -->
-
-  <!-- Start of Welcome Section -->
-  <section id="welcome-section"> 
-    <h1>Welcome to my Portfolio!</h1>
-    <p>Hi I'm John, take a look at some of my projects</p>
-  </section>
-  <!-- End of Welcome Section -->
-
-  <!-- Start of Projects Section -->
-  <section id="projects">
-    <h2>Project Showcase</h2>
-
-    <div class="project-grid"> 
-
-      <a class="project-tile" href="https://pomodoro-lockin.netlify.app/" target="_blank">
-        <img class="project-image" src="assets\PomodoroTimerScreenshot.png" alt="project"> </img>
-        <p class="project-title">Pomodoro Timer</p>
-        </a>
-
-      <a class="project-tile" href="https://www.figma.com/proto/qNBZ99xiI7UUhvjJJa7XXh/
-      Mobile-Application-Prototype?type=design&node-id=3-34&t=Iifr6VuHWyf6mK2p-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A34" 
-      target="_blank">
-      <img class="project-image" src="assets/MobileApplicationPrototypeScreenshot.png" alt="project"> </img>
-      <p class="project-title">Mobile Food Application Prototype</p>
-      </a>
-
-      <p>More to come...</p>
-
-    </div>
-    
-  </section>
-  <!-- End of Projects Section -->
-
-
-  <!-- Start of Contact Section -->
-  <section id="contact">
-    <h2>Find me on:</h2>
-    
-    <div class="contact-list"> 
-      <a id="profile-link" href="https://github.com/jm475" target="_blank"><i class="fab fa-github"></i> <span>GitHub</span>
-    </a>
-    </div>
-    
-
-  </section>
-  <!-- End of Contact Section -->
-
-
-</body>
+  </head>
+  <!-- END OF HEAD -->
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
