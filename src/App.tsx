@@ -1,4 +1,6 @@
 import './App.css'
+import PomodoroTimerScreenshot from './assets/PomodoroTimerScreenshot.png';
+import MobileApplicationPrototypeScreenshot from './assets/MobileApplicationPrototypeScreenshot.png';
 
 /**
  * Navbar component
@@ -39,11 +41,11 @@ const ProjectsSection: React.FC = () => {
           <h2>Project Showcase</h2>
           <div className="project-grid">
               <a className="project-tile" href="https://pomodoro-lockin.netlify.app/" target="_blank">
-                  <img className="project-image" src="./src/assets/PomodoroTimerScreenshot.png" alt="project" />
+                  <img className="project-image" src={PomodoroTimerScreenshot} alt="project" />
                   <p className="project-title">Pomodoro Timer</p>
               </a>
               <a className="project-tile" href="https://www.figma.com/proto/qNBZ99xiI7UUhvjJJa7XXh/Mobile-Application-Prototype?type=design&node-id=3-34&t=Iifr6VuHWyf6mK2p-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A34" target="_blank">
-                  <img className="project-image" src="./src/assets/MobileApplicationPrototypeScreenshot.png" alt="project" />
+                  <img className="project-image" src={MobileApplicationPrototypeScreenshot} alt="project" />
                   <p className="project-title">Mobile Food Application Prototype</p>
               </a>
               <p>More to come...</p>
